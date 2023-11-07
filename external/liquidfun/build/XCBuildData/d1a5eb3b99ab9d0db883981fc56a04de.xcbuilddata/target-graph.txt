@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+Target 'HelloWorld' in project 'Box2D'
+➜ Explicit dependency on target 'Box2D' in project 'Box2D'
+Target 'Box2D' in project 'Box2D' (no dependencies)

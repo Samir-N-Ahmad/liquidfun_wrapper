@@ -1,0 +1,19 @@
+#!/bin/sh
+set -e
+if test "$CONFIGURATION" = "Debug"; then :
+  cd /Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D
+  make -f /Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/CMakeScripts/ReRunCMake.make
+fi
+if test "$CONFIGURATION" = "Release"; then :
+  cd /Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D
+  make -f /Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/CMakeScripts/ReRunCMake.make
+fi
+if test "$CONFIGURATION" = "MinSizeRel"; then :
+  cd /Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D
+  make -f /Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/CMakeScripts/ReRunCMake.make
+fi
+if test "$CONFIGURATION" = "RelWithDebInfo"; then :
+  cd /Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D
+  make -f /Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/CMakeScripts/ReRunCMake.make
+fi
+

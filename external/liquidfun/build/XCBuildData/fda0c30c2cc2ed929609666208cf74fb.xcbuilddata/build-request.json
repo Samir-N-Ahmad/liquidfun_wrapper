@@ -1,0 +1,125 @@
+{
+  "buildCommand" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "a4ca8d13d519aaf095370da41564043f5b2105fba5679029ca96a9d7951ca635"
+    },
+    {
+      "guid" : "a4ca8d13d519aaf095370da41564043f5c01cf3a31181ed940db6ee3dabb2912"
+    },
+    {
+      "guid" : "a4ca8d13d519aaf095370da41564043f9b1ae70900b5d58c0b14d102579da6d5"
+    },
+    {
+      "guid" : "a4ca8d13d519aaf095370da41564043f7ab88ed3c0383de48a8793a7559d6252"
+    },
+    {
+      "guid" : "a4ca8d13d519aaf095370da41564043f5ab1a2dfd1bd218763978bc40c15a2b3"
+    },
+    {
+      "guid" : "a4ca8d13d519aaf095370da41564043fb0bdf86c9c5c6e36fa15610d36e5e390"
+    },
+    {
+      "guid" : "a4ca8d13d519aaf095370da41564043f75a7d979d7ad8213fd9f3e28e5907142"
+    },
+    {
+      "guid" : "a4ca8d13d519aaf095370da41564043f52be939e3ebd42947f76665ac0ec4df0"
+    },
+    {
+      "guid" : "a4ca8d13d519aaf095370da41564043fd303d010331bc3591b3959475009c8d4"
+    },
+    {
+      "guid" : "a4ca8d13d519aaf095370da41564043f02d54fe2a64cb77bdce170cfd545c1e9"
+    },
+    {
+      "guid" : "a4ca8d13d519aaf095370da41564043f3ee40f6d81cc89593b05d3b02505b3f0"
+    },
+    {
+      "guid" : "a4ca8d13d519aaf095370da41564043ff6fbe3cd084e7625cdb89b229bdcf48b"
+    },
+    {
+      "guid" : "a4ca8d13d519aaf095370da41564043f4c4f2af52ec73238368e3304583c14f0"
+    },
+    {
+      "guid" : "a4ca8d13d519aaf095370da41564043f624e1b8bceaaaf9ab19db5b011721c1b"
+    },
+    {
+      "guid" : "a4ca8d13d519aaf095370da41564043f56cd03cfcebf0dc2ca2e37d77de1d969"
+    },
+    {
+      "guid" : "a4ca8d13d519aaf095370da41564043ff9932493435f1902148ffc58721e077a"
+    },
+    {
+      "guid" : "a4ca8d13d519aaf095370da41564043ffdb664c080f435bda523851872d4feac"
+    },
+    {
+      "guid" : "a4ca8d13d519aaf095370da41564043fbcef3609dc22c4474450535ef0696e95"
+    },
+    {
+      "guid" : "a4ca8d13d519aaf095370da41564043f85e265ef43e6f102d4a1e4d2ceddcb2b"
+    },
+    {
+      "guid" : "a4ca8d13d519aaf095370da41564043fc32df4e612b08204f97a5bfa707ac92a"
+    },
+    {
+      "guid" : "a4ca8d13d519aaf095370da41564043f57a89041a4400adac0f72685f95b927e"
+    },
+    {
+      "guid" : "a4ca8d13d519aaf095370da41564043fe42779dd89f10fd7dde63c61ee5b628d"
+    },
+    {
+      "guid" : "a4ca8d13d519aaf095370da41564043f9aa7356320cc852ad38833bbf4233adb"
+    },
+    {
+      "guid" : "a4ca8d13d519aaf095370da41564043f4314aa4ed0426af4e225ef0c19de5cfa"
+    }
+  ],
+  "containerPath" : "/Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/Box2D.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx14.0",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "x86_64h",
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/admin/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/admin/Library/Developer/Xcode/DerivedData/Box2D-amrswpoabculvgctwwjtgxtzzxkw/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/admin/Library/Developer/Xcode/DerivedData/Box2D-amrswpoabculvgctwwjtgxtzzxkw/Index.noindex/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

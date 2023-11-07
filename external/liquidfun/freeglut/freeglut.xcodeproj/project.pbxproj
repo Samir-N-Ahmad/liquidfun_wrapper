@@ -1,0 +1,1539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		4E6B31F9B3F7491A91995566 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 5886D5948E7A445991352689 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				2722E90A6D49AB7D2C17CF0C /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		934C032C3EE245F3881E9841 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3F2A7ED2609745B893B1BED9 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				647201FDA45DE4F8F2441088 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				E7F968437D2B4B319C58C675 /* PBXTargetDependency */,
+				8856615CB1704F5D9B1CE911 /* PBXTargetDependency */,
+				D681F0D2615240528402C674 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		A102B4AE418F4883AFA69BED /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 97CB1A3D105B4D7BAFD3C923 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				2CB6AE70412B495EA55DE702 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		01FD94381A4F48FE996F939E /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/include/GL/freeglut.h */ = {isa = PBXBuildFile; fileRef = F53249C5BBBE4B9F9C0A8DFB /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/include/GL/freeglut.h */; };
+		030DEB0FF32F4A2F9000144E /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = F7002A69BDB24EB1B6DD2092 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/CMakeLists.txt */; };
+		079D75B44F294D598A851673 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_internal_x11_glx.h */ = {isa = PBXBuildFile; fileRef = 2901EF6D6A664955B39073F5 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_internal_x11_glx.h */; };
+		0B9DB829021B4F728BB67D75 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_videoresize.c */ = {isa = PBXBuildFile; fileRef = F69D273965324153AD41D10F /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_videoresize.c */; };
+		0FF42A4693FF453B809031E9 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_geometry.c */ = {isa = PBXBuildFile; fileRef = B4A065E297644D7EB71DB79C /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_geometry.c */; };
+		143CB9B973FD49649F051811 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_cursor.c */ = {isa = PBXBuildFile; fileRef = 966502AE724D4B83818D1EC3 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_cursor.c */; };
+		167642137AF74977B58FDF39 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_window_x11_glx.h */ = {isa = PBXBuildFile; fileRef = 2B078CCDF00F43408D5432DB /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_window_x11_glx.h */; };
+		17D573FD0EAF4E8EAF9F493A /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_teapot.c */ = {isa = PBXBuildFile; fileRef = C8FEEF6C634445E0A627DDFF /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_teapot.c */; };
+		18FBF1543C18464FAA8564D4 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_init.c */ = {isa = PBXBuildFile; fileRef = 5883A593153A491380A6EAA4 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_init.c */; };
+		191C117447E94443A8578377 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_gl2.c */ = {isa = PBXBuildFile; fileRef = 37B01C8B8C8142A68E8EDC43 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_gl2.c */; };
+		1BE944B5C7E041D4B0945366 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_gamemode_x11.c */ = {isa = PBXBuildFile; fileRef = AA27C2B03FCE433BAB3FBCAA /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_gamemode_x11.c */; };
+		1CA2AB503A4A4490AFC89157 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_structure_x11.c */ = {isa = PBXBuildFile; fileRef = ACD59C3245DE44C7B652571D /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_structure_x11.c */; };
+		1D17A6A166ED4CC99D96314E /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_window_x11_glx.c */ = {isa = PBXBuildFile; fileRef = D2CFD57942BA404195C9BBBC /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_window_x11_glx.c */; };
+		2034B4018A7D423EB869E852 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_main.c */ = {isa = PBXBuildFile; fileRef = 68AA0D5EF2A04AC8B7A02473 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_main.c */; };
+		209FA1E4C16646A3B1AAE0A1 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_stroke_mono_roman.c */ = {isa = PBXBuildFile; fileRef = 525BFB41C79740878CBC1048 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_stroke_mono_roman.c */; };
+		238F4904413647E4A13BB869 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/include/GL/freeglut_ext.h */ = {isa = PBXBuildFile; fileRef = 8F032E0CC8E44A6AB8406AD1 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/include/GL/freeglut_ext.h */; };
+		23C3A388C368411382826A97 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_init.c */ = {isa = PBXBuildFile; fileRef = F4EFA801ACD246EAAD04812C /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_init.c */; };
+		270146632191495DB48BC347 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_misc.c */ = {isa = PBXBuildFile; fileRef = 7D695FC8F6EB4DD183E64B84 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_misc.c */; };
+		2A34E9EEB39649BF8397450F /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/include/GL/freeglut_std.h */ = {isa = PBXBuildFile; fileRef = 476EDE5B87964164933EB808 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/include/GL/freeglut_std.h */; };
+		2E4D0D6171D84AEEAB2D1872 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_joystick_x11.c */ = {isa = PBXBuildFile; fileRef = A4331D68F5BF4FF78F8F7E62 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_joystick_x11.c */; };
+		30A777B8912E40B8BD9AF5B5 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_ext_x11.c */ = {isa = PBXBuildFile; fileRef = 4BC66C729F9442528C8E0679 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_ext_x11.c */; };
+		320A8D75400142598E9E4B85 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_window_x11_glx.c */ = {isa = PBXBuildFile; fileRef = 9D7FF03AFCED4CF5A93BE393 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_window_x11_glx.c */; };
+		33F9D72A1CB441CCA3D5465B /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_xinput_x11.c */ = {isa = PBXBuildFile; fileRef = FA711BA577D843B49A7D2726 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_xinput_x11.c */; };
+		35D79B6D66124824A595936F /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_ext.c */ = {isa = PBXBuildFile; fileRef = D6C813444B8E48AC96A4B719 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_ext.c */; };
+		3699ACF9F6BF489CB07E0ED6 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = BDEE1FC8A11A44089EF4E139 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/CMakeLists.txt */; };
+		3AA84D73AF3641F8ABBA9712 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_menu_x11.c */ = {isa = PBXBuildFile; fileRef = 29C23A7A032D4E5FBE7B45B4 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_menu_x11.c */; };
+		3AE2806CC9EC4F219C548346 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_stroke_roman.c */ = {isa = PBXBuildFile; fileRef = 9CAA1E1139974215B8628F91 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_stroke_roman.c */; };
+		3EF94DEA6BD64BE29F48B047 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_display.c */ = {isa = PBXBuildFile; fileRef = CCDF376958A9498094D497CD /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_display.c */; };
+		40FFF1C556F744AAAD8368FF /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/include/GL/freeglut_std.h */ = {isa = PBXBuildFile; fileRef = 8D8E0537FF03424A9C9B19B3 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/include/GL/freeglut_std.h */; };
+		424C8EB45049482D92182B54 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_stroke_roman.c */ = {isa = PBXBuildFile; fileRef = 779F5E326CC346CB9A89AE44 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_stroke_roman.c */; };
+		45A918EA2EC0448FBBDA71E1 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/include/GL/freeglut.h */ = {isa = PBXBuildFile; fileRef = 84B29659073841FAB05E8A06 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/include/GL/freeglut.h */; };
+		4906D9D6C3314C37964E773A /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_callbacks.c */ = {isa = PBXBuildFile; fileRef = 627238079E034E6D948440F0 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_callbacks.c */; };
+		4B5D539C2DE94F968CDF0DC1 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_display_x11_glx.c */ = {isa = PBXBuildFile; fileRef = CF693ABC5C7D4108BD6BCD20 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_display_x11_glx.c */; };
+		4E4E900D74D8484DBBDEF839 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_callbacks.c */ = {isa = PBXBuildFile; fileRef = C71833BCF243404D891FB1EF /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_callbacks.c */; };
+		4F5E5ED1E80F4AFA963DD6E8 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_gl2.h */ = {isa = PBXBuildFile; fileRef = 4F35EA578A3B41A0A156AF58 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_gl2.h */; };
+		4F951A1A917743EA866A1B3F /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_stroke_mono_roman.c */ = {isa = PBXBuildFile; fileRef = A07EDBE1FBA54A37A7332395 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_stroke_mono_roman.c */; };
+		5228E2ECCA3746D4A30BE467 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_state.c */ = {isa = PBXBuildFile; fileRef = 640A91ECBC664E568A4B7A64 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_state.c */; };
+		53C63CCF4B51457EB218CB52 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_glutfont_definitions_x11.c */ = {isa = PBXBuildFile; fileRef = 73776F52B3DF4F3297962A2A /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_glutfont_definitions_x11.c */; };
+		548BE38E13564091A0806C8C /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_joystick.c */ = {isa = PBXBuildFile; fileRef = FB153B2B1AD9463E81913D60 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_joystick.c */; };
+		55F89A178F5B4B43B76D2AE2 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/include/GL/freeglut_ext.h */ = {isa = PBXBuildFile; fileRef = E38CB0F435D645A283FC41EF /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/include/GL/freeglut_ext.h */; };
+		564B0151BEF84F9188122C34 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_cursor.c */ = {isa = PBXBuildFile; fileRef = 9B44E08FCEC4495FB0D56B3E /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_cursor.c */; };
+		56BD83692C01436E998BAC66 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_glutfont_definitions_x11.c */ = {isa = PBXBuildFile; fileRef = 80BDE8D31A494D959A15D0FB /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_glutfont_definitions_x11.c */; };
+		570A555D9C1E4E2B959E427D /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/util/xparsegeometry_repl.h */ = {isa = PBXBuildFile; fileRef = EC647592FA7446D4BA87A46A /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/util/xparsegeometry_repl.h */; };
+		588619A4E3024BB597E294EF /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_gamemode.c */ = {isa = PBXBuildFile; fileRef = E7E607E7ABDA42A588A5332E /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_gamemode.c */; };
+		5B526176B5DC41D5830AA353 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_cursor_x11.c */ = {isa = PBXBuildFile; fileRef = 70A7C10F52784B3E81847E3C /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_cursor_x11.c */; };
+		5D9BECB4AEF646D1B2955CA7 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_internal.h */ = {isa = PBXBuildFile; fileRef = C3B5EAFEB7844419A870EA17 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_internal.h */; };
+		614A7CB2F66B4E3083C57C88 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_spaceball.c */ = {isa = PBXBuildFile; fileRef = 9763D393C24A4C709691063F /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_spaceball.c */; };
+		62BEC98B1D40434B9168CC36 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_teapot_data.h */ = {isa = PBXBuildFile; fileRef = 424FC59F3B254D3DAA45E15C /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_teapot_data.h */; };
+		64E770AAEE3F4591B417EC19 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_overlay.c */ = {isa = PBXBuildFile; fileRef = 6736EA98FB8E44CE833D3870 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_overlay.c */; };
+		6688793F4DD84150A63172CA /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_state.c */ = {isa = PBXBuildFile; fileRef = 7799D9EDC69748C78EDCF6D7 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_state.c */; };
+		67A6C9DD5EB3483C8343325A /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_structure.c */ = {isa = PBXBuildFile; fileRef = 7ACD5B930C2E47538E38F680 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_structure.c */; };
+		686AFEC929DD4AC2A5CC30D8 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_structure.c */ = {isa = PBXBuildFile; fileRef = 931002AAC4D0460EAC1C69C0 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_structure.c */; };
+		6D2D71E87146451FB9D24DCC /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_state_x11.c */ = {isa = PBXBuildFile; fileRef = 3A63B0DE47304C8B92B293F4 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_state_x11.c */; };
+		6D5DDB9B762A4F40B6983542 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_init.h */ = {isa = PBXBuildFile; fileRef = 34188EC36909408D96541401 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_init.h */; };
+		6DAD870BDCF943EB8FFDEB8F /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_font_data.c */ = {isa = PBXBuildFile; fileRef = B4A7840F214C4D509F665F64 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_font_data.c */; };
+		6DEAFA06698D4D71905651B7 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_window_x11_glx.h */ = {isa = PBXBuildFile; fileRef = BC0FB19EBF214F08BC0385CE /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_window_x11_glx.h */; };
+		6EA271FD729C451EB87C3E09 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_init_x11.c */ = {isa = PBXBuildFile; fileRef = 743107D7DED94B18B6ED7528 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_init_x11.c */; };
+		71B94C495F404240ACCB7579 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/util/xparsegeometry_repl.h */ = {isa = PBXBuildFile; fileRef = 329566EF97C84BC7980F364D /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/util/xparsegeometry_repl.h */; };
+		76BE98DDFDEF4FC58C295134 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_structure_x11.c */ = {isa = PBXBuildFile; fileRef = 3227A079C2994221AF6C81AB /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_structure_x11.c */; };
+		770964938D404EA9B6231846 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_geometry.c */ = {isa = PBXBuildFile; fileRef = 8A96103F6B874D858E43DD96 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_geometry.c */; };
+		7CF68143F6A14222AED5F26F /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_input_devices_x11.c */ = {isa = PBXBuildFile; fileRef = C875DD2C36D645ECBC93747A /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_input_devices_x11.c */; };
+		84054F518E154D5B87BA1A88 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_input_devices.c */ = {isa = PBXBuildFile; fileRef = 34BA914F48AA408C9EE2C76B /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_input_devices.c */; };
+		86AEDF4CDA064A83BE36AD03 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/include/GL/glut.h */ = {isa = PBXBuildFile; fileRef = ECE7CF455BCA44E2AECEEF5B /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/include/GL/glut.h */; };
+		88601488D84E4CCCA1F74C26 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/util/xparsegeometry_repl.c */ = {isa = PBXBuildFile; fileRef = 3EFFA66CBDEF4146A8B55641 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/util/xparsegeometry_repl.c */; };
+		8B94F09ED69945659436A79C /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_gl2.c */ = {isa = PBXBuildFile; fileRef = B589DC21E3494DD7818BDD39 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_gl2.c */; };
+		8EF96D03666949BF8F0BE560 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_window_x11.c */ = {isa = PBXBuildFile; fileRef = 023BA73230B243568CB7F319 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_window_x11.c */; };
+		9257368C736E46A898D91EE5 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_state_x11_glx.h */ = {isa = PBXBuildFile; fileRef = FD5469D2DFCF4D2DB3E46F1C /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_state_x11_glx.h */; };
+		9418118F14194D65B85A1E65 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_menu_x11.c */ = {isa = PBXBuildFile; fileRef = F13332EB056E4E56B793BE95 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_menu_x11.c */; };
+		95E1EDB942604952B9B441E6 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_internal_x11.h */ = {isa = PBXBuildFile; fileRef = 76636D65A7E440E9874BF79B /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_internal_x11.h */; };
+		9619D4510D844FFBBE098443 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_font_data.c */ = {isa = PBXBuildFile; fileRef = D450F83418CD4FB0A8E3C37D /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_font_data.c */; };
+		969FDBD1A9B446A8855C2CE9 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/include/GL/glut.h */ = {isa = PBXBuildFile; fileRef = 195DF243F3B84571BADB0201 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/include/GL/glut.h */; };
+		96A75825B7CC4FBB8932BF60 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_window.c */ = {isa = PBXBuildFile; fileRef = 205A67E957F0473D9C4F4345 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_window.c */; };
+		974C8E4B03304D9FB58F381B /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_window.c */ = {isa = PBXBuildFile; fileRef = C14639BF9B6D44C9901D914E /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_window.c */; };
+		99D3B43249A547508128F6F0 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_internal_x11.h */ = {isa = PBXBuildFile; fileRef = 35BA9C3EA8EF4D5F8A973A2D /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_internal_x11.h */; };
+		9CDDE4AB1925489CB7F28488 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_cursor_x11.c */ = {isa = PBXBuildFile; fileRef = D1753A7C3648497182D0BFB2 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_cursor_x11.c */; };
+		9F4BA04382B14A5F982C1374 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_main.c */ = {isa = PBXBuildFile; fileRef = 888F861363DE4378A240CF0E /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_main.c */; };
+		A0BB9E23F85F446B973566C1 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_display.c */ = {isa = PBXBuildFile; fileRef = 601595227ADD4191AF55D7E1 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_display.c */; };
+		A299FBB92EF442AAB9BDE8B1 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_menu.c */ = {isa = PBXBuildFile; fileRef = EEDBC58C019F4D3490E8AA39 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_menu.c */; };
+		A487658817F94FACB356C500 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_main_x11.c */ = {isa = PBXBuildFile; fileRef = AD71125A77004672BC38B0AC /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_main_x11.c */; };
+		A579CF31350945579A277098 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_joystick.c */ = {isa = PBXBuildFile; fileRef = 4BD04540C38A40EB9699D4A2 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_joystick.c */; };
+		A61948F70A5C4D3BA09A2AEC /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_state_x11_glx.c */ = {isa = PBXBuildFile; fileRef = 94B541B4A3C344F4A4F778D6 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_state_x11_glx.c */; };
+		A61C03349A5246F188B9404B /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_internal_x11_glx.h */ = {isa = PBXBuildFile; fileRef = FF08CD2423D945A7BB3AE36C /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_internal_x11_glx.h */; };
+		A6D03D0CEF9D4711807E4B79 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_font.c */ = {isa = PBXBuildFile; fileRef = 4D5052507D14487AA457E1CD /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_font.c */; };
+		A6E10F826CDB4756AD671CB1 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_gl2.h */ = {isa = PBXBuildFile; fileRef = 43002746B7C84C97858DCFD5 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_gl2.h */; };
+		A8E143CC1FB441BDA583ED03 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_input_devices.c */ = {isa = PBXBuildFile; fileRef = C7BFDB290FCB4A939617B1BD /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_input_devices.c */; };
+		A92E5649B33F4D92910CF835 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_joystick_x11.c */ = {isa = PBXBuildFile; fileRef = D81EDAD5560C4EF1B14278B7 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_joystick_x11.c */; };
+		AA4119E5C5B64B06BE8D3B69 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_misc.c */ = {isa = PBXBuildFile; fileRef = 79E9BD219BA34AE9919C0415 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_misc.c */; };
+		AD1CD44B61B54FCAADBE54A3 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_gamemode_x11.c */ = {isa = PBXBuildFile; fileRef = 417FEB9247C448F49B1EAD92 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_gamemode_x11.c */; };
+		AE11CD03334847C4B07555E9 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_display_x11_glx.c */ = {isa = PBXBuildFile; fileRef = CB474FEF1FD14B54AF8055D7 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_display_x11_glx.c */; };
+		B16E0FF1534342DCAF2281D1 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_overlay.c */ = {isa = PBXBuildFile; fileRef = 7319DF4EEC6142CE8A362768 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_overlay.c */; };
+		B1F62B1A62C54A37B40FA744 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_internal.h */ = {isa = PBXBuildFile; fileRef = AAF148F9D53B469699FCF5B1 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_internal.h */; };
+		B4DF1C72447546348A02047C /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_menu.c */ = {isa = PBXBuildFile; fileRef = FD672C3397D24601B29EB83B /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_menu.c */; };
+		B564E0C400644B439624B6BF /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_init.h */ = {isa = PBXBuildFile; fileRef = 55955863E4184FE18CC2A115 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_init.h */; };
+		B704BB6E80F7468D8D070BA3 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_state_x11.c */ = {isa = PBXBuildFile; fileRef = 995938356D7B44A5A6652914 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_state_x11.c */; };
+		BED15F48C9A342A984D6CA97 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_input_devices_x11.c */ = {isa = PBXBuildFile; fileRef = 4F605E5F3B5B4A67B9651558 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_input_devices_x11.c */; };
+		C5EAA74F5F884BF888D8E7BE /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_font.c */ = {isa = PBXBuildFile; fileRef = 8DF987B9141D4CB09F9122A7 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_font.c */; };
+		CEDFF3ECF9C34F46BDB83F33 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_main_x11.c */ = {isa = PBXBuildFile; fileRef = 8B87FE487E6348BDADC55132 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_main_x11.c */; };
+		CFE40FC78FDC45BCB825C6AD /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_state_x11_glx.c */ = {isa = PBXBuildFile; fileRef = 7086C471761B42E7A7B19DC8 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_state_x11_glx.c */; };
+		D0B0E4E7F9FE4228A2D5D1D3 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_spaceball_x11.c */ = {isa = PBXBuildFile; fileRef = 8C190B480F8A48479621A566 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_spaceball_x11.c */; };
+		D474D8383DCE4A2DB1A4299C /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_spaceball_x11.c */ = {isa = PBXBuildFile; fileRef = 7C9AC5D73119422D96098343 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_spaceball_x11.c */; };
+		DAB522C68779463BA0B8E377 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_spaceball.c */ = {isa = PBXBuildFile; fileRef = BB2321A6969D439F91DCB5A2 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_spaceball.c */; };
+		DABB96C0395F440AB9001D45 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_teapot.c */ = {isa = PBXBuildFile; fileRef = C01D88E2AA8946AAAD0A769A /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_teapot.c */; };
+		DB07D1773C97459290057547 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/util/xparsegeometry_repl.c */ = {isa = PBXBuildFile; fileRef = BDA8B4B2BC384BAD9D840D9C /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/util/xparsegeometry_repl.c */; };
+		DB73227EB96D4FF7B8E24C40 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_xinput_x11.c */ = {isa = PBXBuildFile; fileRef = 81AB50B50116440EAF476515 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_xinput_x11.c */; };
+		DF5CC3460D0848B4AB88C207 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_init_x11.c */ = {isa = PBXBuildFile; fileRef = 7DE9FD3CA67048B78C66ACDD /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_init_x11.c */; };
+		E4F85F415A4044FBA6A60AE9 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_window_x11.c */ = {isa = PBXBuildFile; fileRef = 01E85D49EA3F4F2786827D93 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_window_x11.c */; };
+		EF0BE7B7076E40A8A77401F6 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_state_x11_glx.h */ = {isa = PBXBuildFile; fileRef = ACA7A01690E9405EABA25033 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_state_x11_glx.h */; };
+		F628C8A587504359A2E45623 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_videoresize.c */ = {isa = PBXBuildFile; fileRef = 28A2E325172E431E87386AF9 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_videoresize.c */; };
+		F8085EAEEC804EB687B71619 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_teapot_data.h */ = {isa = PBXBuildFile; fileRef = 88651E1068CB47C88899B377 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_teapot_data.h */; };
+		F9BD9A41F93843B5B6FCDC85 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_gamemode.c */ = {isa = PBXBuildFile; fileRef = AE292537A66148D8A7E4747A /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_gamemode.c */; };
+		FB166B407F044ED582D51949 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_ext_x11.c */ = {isa = PBXBuildFile; fileRef = A6D609568680489CBF54C17B /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_ext_x11.c */; };
+		FCE9E536E520495AB6444959 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_ext.c */ = {isa = PBXBuildFile; fileRef = 53B19DC540D647A59CA773B4 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_ext.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		6DA0D9191F7748A28E0018DB /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		809E77B854BB496F9C9A1FE9 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		930F27F948064243A637D40A /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		F69A8B4A1CCD4B7DA7FFF579 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		2E84FE4D56084AC0A2DD0A0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0C1D691E0154A86A975B0F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 934C032C3EE245F3881E9841;
+			remoteInfo = ALL_BUILD;
+		};
+		5858C8DD884E412480D6FB89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0C1D691E0154A86A975B0F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E6B31F9B3F7491A91995566;
+			remoteInfo = ZERO_CHECK;
+		};
+		9F4D666FA72541DE8D0FFDAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0C1D691E0154A86A975B0F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E6B31F9B3F7491A91995566;
+			remoteInfo = ZERO_CHECK;
+		};
+		BAC67FA1C3784758AC003D1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0C1D691E0154A86A975B0F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E6B31F9B3F7491A91995566;
+			remoteInfo = ZERO_CHECK;
+		};
+		EF76C78D051A450E9B7B878E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0C1D691E0154A86A975B0F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB8D528591974AF187252FBC;
+			remoteInfo = freeglut;
+		};
+		FE28CF7A0E8946B6B99FCD40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0C1D691E0154A86A975B0F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E12F9D27CBD049CDB227E580;
+			remoteInfo = freeglut_static;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01E85D49EA3F4F2786827D93 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_window_x11.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_window_x11.c; path = src/x11/fg_window_x11.c; sourceTree = SOURCE_ROOT; };
+		023BA73230B243568CB7F319 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_window_x11.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_window_x11.c; path = src/x11/fg_window_x11.c; sourceTree = SOURCE_ROOT; };
+		195DF243F3B84571BADB0201 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/include/GL/glut.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glut.h; path = include/GL/glut.h; sourceTree = SOURCE_ROOT; };
+		205A67E957F0473D9C4F4345 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_window.c; path = src/fg_window.c; sourceTree = SOURCE_ROOT; };
+		28A2E325172E431E87386AF9 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_videoresize.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_videoresize.c; path = src/fg_videoresize.c; sourceTree = SOURCE_ROOT; };
+		2901EF6D6A664955B39073F5 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_internal_x11_glx.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fg_internal_x11_glx.h; path = src/x11/fg_internal_x11_glx.h; sourceTree = SOURCE_ROOT; };
+		29C23A7A032D4E5FBE7B45B4 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_menu_x11.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_menu_x11.c; path = src/x11/fg_menu_x11.c; sourceTree = SOURCE_ROOT; };
+		2B078CCDF00F43408D5432DB /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_window_x11_glx.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fg_window_x11_glx.h; path = src/x11/fg_window_x11_glx.h; sourceTree = SOURCE_ROOT; };
+		3227A079C2994221AF6C81AB /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_structure_x11.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_structure_x11.c; path = src/x11/fg_structure_x11.c; sourceTree = SOURCE_ROOT; };
+		329566EF97C84BC7980F364D /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/util/xparsegeometry_repl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xparsegeometry_repl.h; path = src/util/xparsegeometry_repl.h; sourceTree = SOURCE_ROOT; };
+		34188EC36909408D96541401 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_init.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fg_init.h; path = src/fg_init.h; sourceTree = SOURCE_ROOT; };
+		34BA914F48AA408C9EE2C76B /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_input_devices.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_input_devices.c; path = src/fg_input_devices.c; sourceTree = SOURCE_ROOT; };
+		35BA9C3EA8EF4D5F8A973A2D /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_internal_x11.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fg_internal_x11.h; path = src/x11/fg_internal_x11.h; sourceTree = SOURCE_ROOT; };
+		37B01C8B8C8142A68E8EDC43 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_gl2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_gl2.c; path = src/fg_gl2.c; sourceTree = SOURCE_ROOT; };
+		3A63B0DE47304C8B92B293F4 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_state_x11.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_state_x11.c; path = src/x11/fg_state_x11.c; sourceTree = SOURCE_ROOT; };
+		3EFFA66CBDEF4146A8B55641 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/util/xparsegeometry_repl.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = xparsegeometry_repl.c; path = src/util/xparsegeometry_repl.c; sourceTree = SOURCE_ROOT; };
+		417FEB9247C448F49B1EAD92 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_gamemode_x11.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_gamemode_x11.c; path = src/x11/fg_gamemode_x11.c; sourceTree = SOURCE_ROOT; };
+		424FC59F3B254D3DAA45E15C /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_teapot_data.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fg_teapot_data.h; path = src/fg_teapot_data.h; sourceTree = SOURCE_ROOT; };
+		43002746B7C84C97858DCFD5 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_gl2.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fg_gl2.h; path = src/fg_gl2.h; sourceTree = SOURCE_ROOT; };
+		476EDE5B87964164933EB808 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/include/GL/freeglut_std.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = freeglut_std.h; path = include/GL/freeglut_std.h; sourceTree = SOURCE_ROOT; };
+		49433ABFB86E4E269C679FE8 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		4BC66C729F9442528C8E0679 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_ext_x11.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_ext_x11.c; path = src/x11/fg_ext_x11.c; sourceTree = SOURCE_ROOT; };
+		4BD04540C38A40EB9699D4A2 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_joystick.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_joystick.c; path = src/fg_joystick.c; sourceTree = SOURCE_ROOT; };
+		4D5052507D14487AA457E1CD /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_font.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_font.c; path = src/fg_font.c; sourceTree = SOURCE_ROOT; };
+		4F35EA578A3B41A0A156AF58 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_gl2.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fg_gl2.h; path = src/fg_gl2.h; sourceTree = SOURCE_ROOT; };
+		4F605E5F3B5B4A67B9651558 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_input_devices_x11.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_input_devices_x11.c; path = src/x11/fg_input_devices_x11.c; sourceTree = SOURCE_ROOT; };
+		525BFB41C79740878CBC1048 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_stroke_mono_roman.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_stroke_mono_roman.c; path = src/fg_stroke_mono_roman.c; sourceTree = SOURCE_ROOT; };
+		53B19DC540D647A59CA773B4 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_ext.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_ext.c; path = src/fg_ext.c; sourceTree = SOURCE_ROOT; };
+		55955863E4184FE18CC2A115 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_init.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fg_init.h; path = src/fg_init.h; sourceTree = SOURCE_ROOT; };
+		5883A593153A491380A6EAA4 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_init.c; path = src/fg_init.c; sourceTree = SOURCE_ROOT; };
+		601595227ADD4191AF55D7E1 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_display.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_display.c; path = src/fg_display.c; sourceTree = SOURCE_ROOT; };
+		627238079E034E6D948440F0 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_callbacks.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_callbacks.c; path = src/fg_callbacks.c; sourceTree = SOURCE_ROOT; };
+		640A91ECBC664E568A4B7A64 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_state.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_state.c; path = src/fg_state.c; sourceTree = SOURCE_ROOT; };
+		6736EA98FB8E44CE833D3870 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_overlay.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_overlay.c; path = src/fg_overlay.c; sourceTree = SOURCE_ROOT; };
+		68AA0D5EF2A04AC8B7A02473 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_main.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_main.c; path = src/fg_main.c; sourceTree = SOURCE_ROOT; };
+		6DC08FE32778444E93FB8A55 /* freeglut */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libglut.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		7086C471761B42E7A7B19DC8 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_state_x11_glx.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_state_x11_glx.c; path = src/x11/fg_state_x11_glx.c; sourceTree = SOURCE_ROOT; };
+		70A7C10F52784B3E81847E3C /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_cursor_x11.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_cursor_x11.c; path = src/x11/fg_cursor_x11.c; sourceTree = SOURCE_ROOT; };
+		7319DF4EEC6142CE8A362768 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_overlay.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_overlay.c; path = src/fg_overlay.c; sourceTree = SOURCE_ROOT; };
+		73776F52B3DF4F3297962A2A /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_glutfont_definitions_x11.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_glutfont_definitions_x11.c; path = src/x11/fg_glutfont_definitions_x11.c; sourceTree = SOURCE_ROOT; };
+		743107D7DED94B18B6ED7528 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_init_x11.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_init_x11.c; path = src/x11/fg_init_x11.c; sourceTree = SOURCE_ROOT; };
+		76636D65A7E440E9874BF79B /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_internal_x11.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fg_internal_x11.h; path = src/x11/fg_internal_x11.h; sourceTree = SOURCE_ROOT; };
+		7799D9EDC69748C78EDCF6D7 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_state.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_state.c; path = src/fg_state.c; sourceTree = SOURCE_ROOT; };
+		779F5E326CC346CB9A89AE44 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_stroke_roman.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_stroke_roman.c; path = src/fg_stroke_roman.c; sourceTree = SOURCE_ROOT; };
+		79E9BD219BA34AE9919C0415 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_misc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_misc.c; path = src/fg_misc.c; sourceTree = SOURCE_ROOT; };
+		7ACD5B930C2E47538E38F680 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_structure.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_structure.c; path = src/fg_structure.c; sourceTree = SOURCE_ROOT; };
+		7C9AC5D73119422D96098343 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_spaceball_x11.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_spaceball_x11.c; path = src/x11/fg_spaceball_x11.c; sourceTree = SOURCE_ROOT; };
+		7D695FC8F6EB4DD183E64B84 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_misc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_misc.c; path = src/fg_misc.c; sourceTree = SOURCE_ROOT; };
+		7DE9FD3CA67048B78C66ACDD /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_init_x11.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_init_x11.c; path = src/x11/fg_init_x11.c; sourceTree = SOURCE_ROOT; };
+		80BDE8D31A494D959A15D0FB /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_glutfont_definitions_x11.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_glutfont_definitions_x11.c; path = src/x11/fg_glutfont_definitions_x11.c; sourceTree = SOURCE_ROOT; };
+		81AB50B50116440EAF476515 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_xinput_x11.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_xinput_x11.c; path = src/x11/fg_xinput_x11.c; sourceTree = SOURCE_ROOT; };
+		84B29659073841FAB05E8A06 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/include/GL/freeglut.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = freeglut.h; path = include/GL/freeglut.h; sourceTree = SOURCE_ROOT; };
+		88651E1068CB47C88899B377 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_teapot_data.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fg_teapot_data.h; path = src/fg_teapot_data.h; sourceTree = SOURCE_ROOT; };
+		888F861363DE4378A240CF0E /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_main.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_main.c; path = src/fg_main.c; sourceTree = SOURCE_ROOT; };
+		8A96103F6B874D858E43DD96 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_geometry.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_geometry.c; path = src/fg_geometry.c; sourceTree = SOURCE_ROOT; };
+		8B87FE487E6348BDADC55132 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_main_x11.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_main_x11.c; path = src/x11/fg_main_x11.c; sourceTree = SOURCE_ROOT; };
+		8C190B480F8A48479621A566 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_spaceball_x11.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_spaceball_x11.c; path = src/x11/fg_spaceball_x11.c; sourceTree = SOURCE_ROOT; };
+		8D8E0537FF03424A9C9B19B3 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/include/GL/freeglut_std.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = freeglut_std.h; path = include/GL/freeglut_std.h; sourceTree = SOURCE_ROOT; };
+		8DF987B9141D4CB09F9122A7 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_font.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_font.c; path = src/fg_font.c; sourceTree = SOURCE_ROOT; };
+		8F032E0CC8E44A6AB8406AD1 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/include/GL/freeglut_ext.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = freeglut_ext.h; path = include/GL/freeglut_ext.h; sourceTree = SOURCE_ROOT; };
+		931002AAC4D0460EAC1C69C0 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_structure.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_structure.c; path = src/fg_structure.c; sourceTree = SOURCE_ROOT; };
+		94B541B4A3C344F4A4F778D6 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_state_x11_glx.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_state_x11_glx.c; path = src/x11/fg_state_x11_glx.c; sourceTree = SOURCE_ROOT; };
+		966502AE724D4B83818D1EC3 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_cursor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_cursor.c; path = src/fg_cursor.c; sourceTree = SOURCE_ROOT; };
+		9763D393C24A4C709691063F /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_spaceball.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_spaceball.c; path = src/fg_spaceball.c; sourceTree = SOURCE_ROOT; };
+		995938356D7B44A5A6652914 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_state_x11.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_state_x11.c; path = src/x11/fg_state_x11.c; sourceTree = SOURCE_ROOT; };
+		9B44E08FCEC4495FB0D56B3E /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_cursor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_cursor.c; path = src/fg_cursor.c; sourceTree = SOURCE_ROOT; };
+		9CAA1E1139974215B8628F91 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_stroke_roman.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_stroke_roman.c; path = src/fg_stroke_roman.c; sourceTree = SOURCE_ROOT; };
+		9D7FF03AFCED4CF5A93BE393 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_window_x11_glx.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_window_x11_glx.c; path = src/x11/fg_window_x11_glx.c; sourceTree = SOURCE_ROOT; };
+		A07EDBE1FBA54A37A7332395 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_stroke_mono_roman.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_stroke_mono_roman.c; path = src/fg_stroke_mono_roman.c; sourceTree = SOURCE_ROOT; };
+		A4331D68F5BF4FF78F8F7E62 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_joystick_x11.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_joystick_x11.c; path = src/x11/fg_joystick_x11.c; sourceTree = SOURCE_ROOT; };
+		A6D609568680489CBF54C17B /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_ext_x11.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_ext_x11.c; path = src/x11/fg_ext_x11.c; sourceTree = SOURCE_ROOT; };
+		AA27C2B03FCE433BAB3FBCAA /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_gamemode_x11.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_gamemode_x11.c; path = src/x11/fg_gamemode_x11.c; sourceTree = SOURCE_ROOT; };
+		AAF148F9D53B469699FCF5B1 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fg_internal.h; path = src/fg_internal.h; sourceTree = SOURCE_ROOT; };
+		ACA7A01690E9405EABA25033 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_state_x11_glx.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fg_state_x11_glx.h; path = src/x11/fg_state_x11_glx.h; sourceTree = SOURCE_ROOT; };
+		ACD59C3245DE44C7B652571D /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_structure_x11.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_structure_x11.c; path = src/x11/fg_structure_x11.c; sourceTree = SOURCE_ROOT; };
+		AD71125A77004672BC38B0AC /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_main_x11.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_main_x11.c; path = src/x11/fg_main_x11.c; sourceTree = SOURCE_ROOT; };
+		AE292537A66148D8A7E4747A /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_gamemode.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_gamemode.c; path = src/fg_gamemode.c; sourceTree = SOURCE_ROOT; };
+		B4A065E297644D7EB71DB79C /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_geometry.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_geometry.c; path = src/fg_geometry.c; sourceTree = SOURCE_ROOT; };
+		B4A7840F214C4D509F665F64 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_font_data.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_font_data.c; path = src/fg_font_data.c; sourceTree = SOURCE_ROOT; };
+		B589DC21E3494DD7818BDD39 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_gl2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_gl2.c; path = src/fg_gl2.c; sourceTree = SOURCE_ROOT; };
+		BB2321A6969D439F91DCB5A2 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_spaceball.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_spaceball.c; path = src/fg_spaceball.c; sourceTree = SOURCE_ROOT; };
+		BC0FB19EBF214F08BC0385CE /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_window_x11_glx.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fg_window_x11_glx.h; path = src/x11/fg_window_x11_glx.h; sourceTree = SOURCE_ROOT; };
+		BDA8B4B2BC384BAD9D840D9C /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/util/xparsegeometry_repl.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = xparsegeometry_repl.c; path = src/util/xparsegeometry_repl.c; sourceTree = SOURCE_ROOT; };
+		BDEE1FC8A11A44089EF4E139 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C01D88E2AA8946AAAD0A769A /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_teapot.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_teapot.c; path = src/fg_teapot.c; sourceTree = SOURCE_ROOT; };
+		C14639BF9B6D44C9901D914E /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_window.c; path = src/fg_window.c; sourceTree = SOURCE_ROOT; };
+		C3B5EAFEB7844419A870EA17 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fg_internal.h; path = src/fg_internal.h; sourceTree = SOURCE_ROOT; };
+		C71833BCF243404D891FB1EF /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_callbacks.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_callbacks.c; path = src/fg_callbacks.c; sourceTree = SOURCE_ROOT; };
+		C7BFDB290FCB4A939617B1BD /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_input_devices.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_input_devices.c; path = src/fg_input_devices.c; sourceTree = SOURCE_ROOT; };
+		C875DD2C36D645ECBC93747A /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_input_devices_x11.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_input_devices_x11.c; path = src/x11/fg_input_devices_x11.c; sourceTree = SOURCE_ROOT; };
+		C8FEEF6C634445E0A627DDFF /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_teapot.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_teapot.c; path = src/fg_teapot.c; sourceTree = SOURCE_ROOT; };
+		CB474FEF1FD14B54AF8055D7 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_display_x11_glx.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_display_x11_glx.c; path = src/x11/fg_display_x11_glx.c; sourceTree = SOURCE_ROOT; };
+		CCDF376958A9498094D497CD /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_display.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_display.c; path = src/fg_display.c; sourceTree = SOURCE_ROOT; };
+		CF693ABC5C7D4108BD6BCD20 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_display_x11_glx.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_display_x11_glx.c; path = src/x11/fg_display_x11_glx.c; sourceTree = SOURCE_ROOT; };
+		D1753A7C3648497182D0BFB2 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_cursor_x11.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_cursor_x11.c; path = src/x11/fg_cursor_x11.c; sourceTree = SOURCE_ROOT; };
+		D2CFD57942BA404195C9BBBC /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_window_x11_glx.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_window_x11_glx.c; path = src/x11/fg_window_x11_glx.c; sourceTree = SOURCE_ROOT; };
+		D450F83418CD4FB0A8E3C37D /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_font_data.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_font_data.c; path = src/fg_font_data.c; sourceTree = SOURCE_ROOT; };
+		D6C813444B8E48AC96A4B719 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_ext.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_ext.c; path = src/fg_ext.c; sourceTree = SOURCE_ROOT; };
+		D81EDAD5560C4EF1B14278B7 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_joystick_x11.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_joystick_x11.c; path = src/x11/fg_joystick_x11.c; sourceTree = SOURCE_ROOT; };
+		E38CB0F435D645A283FC41EF /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/include/GL/freeglut_ext.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = freeglut_ext.h; path = include/GL/freeglut_ext.h; sourceTree = SOURCE_ROOT; };
+		E7E607E7ABDA42A588A5332E /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_gamemode.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_gamemode.c; path = src/fg_gamemode.c; sourceTree = SOURCE_ROOT; };
+		E8874AB1957F4549ABE667D0 /* freeglut_static */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglut.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC647592FA7446D4BA87A46A /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/util/xparsegeometry_repl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xparsegeometry_repl.h; path = src/util/xparsegeometry_repl.h; sourceTree = SOURCE_ROOT; };
+		ECE7CF455BCA44E2AECEEF5B /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/include/GL/glut.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glut.h; path = include/GL/glut.h; sourceTree = SOURCE_ROOT; };
+		EEDBC58C019F4D3490E8AA39 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_menu.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_menu.c; path = src/fg_menu.c; sourceTree = SOURCE_ROOT; };
+		F13332EB056E4E56B793BE95 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_menu_x11.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_menu_x11.c; path = src/x11/fg_menu_x11.c; sourceTree = SOURCE_ROOT; };
+		F4EFA801ACD246EAAD04812C /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_init.c; path = src/fg_init.c; sourceTree = SOURCE_ROOT; };
+		F53249C5BBBE4B9F9C0A8DFB /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/include/GL/freeglut.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = freeglut.h; path = include/GL/freeglut.h; sourceTree = SOURCE_ROOT; };
+		F69D273965324153AD41D10F /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_videoresize.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_videoresize.c; path = src/fg_videoresize.c; sourceTree = SOURCE_ROOT; };
+		F7002A69BDB24EB1B6DD2092 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		FA711BA577D843B49A7D2726 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_xinput_x11.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_xinput_x11.c; path = src/x11/fg_xinput_x11.c; sourceTree = SOURCE_ROOT; };
+		FB153B2B1AD9463E81913D60 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_joystick.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_joystick.c; path = src/fg_joystick.c; sourceTree = SOURCE_ROOT; };
+		FD5469D2DFCF4D2DB3E46F1C /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_state_x11_glx.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fg_state_x11_glx.h; path = src/x11/fg_state_x11_glx.h; sourceTree = SOURCE_ROOT; };
+		FD672C3397D24601B29EB83B /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_menu.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_menu.c; path = src/fg_menu.c; sourceTree = SOURCE_ROOT; };
+		FF08CD2423D945A7BB3AE36C /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_internal_x11_glx.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fg_internal_x11_glx.h; path = src/x11/fg_internal_x11_glx.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0CF537D86316479FB67D8CA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		568E0B2124F34AB48476A542 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		068FF8D56FDA4E64938AEC5B /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		28FB5BBA41B74320A13EECB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DC08FE32778444E93FB8A55 /* freeglut */,
+				E8874AB1957F4549ABE667D0 /* freeglut_static */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3689ADB33F4844AAA29F33FE /* freeglut_static */ = {
+			isa = PBXGroup;
+			children = (
+				82ABCEE4A6F84A01BBDED7A2 /* Header Files */,
+				63F755773A734E0F9965A71C /* Source Files */,
+				F7002A69BDB24EB1B6DD2092 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/CMakeLists.txt */,
+			);
+			name = freeglut_static;
+			sourceTree = "<group>";
+		};
+		63F755773A734E0F9965A71C /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				627238079E034E6D948440F0 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_callbacks.c */,
+				9B44E08FCEC4495FB0D56B3E /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_cursor.c */,
+				CCDF376958A9498094D497CD /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_display.c */,
+				D6C813444B8E48AC96A4B719 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_ext.c */,
+				8DF987B9141D4CB09F9122A7 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_font.c */,
+				B4A7840F214C4D509F665F64 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_font_data.c */,
+				AE292537A66148D8A7E4747A /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_gamemode.c */,
+				B4A065E297644D7EB71DB79C /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_geometry.c */,
+				B589DC21E3494DD7818BDD39 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_gl2.c */,
+				F4EFA801ACD246EAAD04812C /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_init.c */,
+				C7BFDB290FCB4A939617B1BD /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_input_devices.c */,
+				4BD04540C38A40EB9699D4A2 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_joystick.c */,
+				68AA0D5EF2A04AC8B7A02473 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_main.c */,
+				EEDBC58C019F4D3490E8AA39 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_menu.c */,
+				79E9BD219BA34AE9919C0415 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_misc.c */,
+				6736EA98FB8E44CE833D3870 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_overlay.c */,
+				BB2321A6969D439F91DCB5A2 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_spaceball.c */,
+				7799D9EDC69748C78EDCF6D7 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_state.c */,
+				A07EDBE1FBA54A37A7332395 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_stroke_mono_roman.c */,
+				779F5E326CC346CB9A89AE44 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_stroke_roman.c */,
+				7ACD5B930C2E47538E38F680 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_structure.c */,
+				C8FEEF6C634445E0A627DDFF /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_teapot.c */,
+				28A2E325172E431E87386AF9 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_videoresize.c */,
+				205A67E957F0473D9C4F4345 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_window.c */,
+				3EFFA66CBDEF4146A8B55641 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/util/xparsegeometry_repl.c */,
+				70A7C10F52784B3E81847E3C /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_cursor_x11.c */,
+				CB474FEF1FD14B54AF8055D7 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_display_x11_glx.c */,
+				A6D609568680489CBF54C17B /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_ext_x11.c */,
+				417FEB9247C448F49B1EAD92 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_gamemode_x11.c */,
+				73776F52B3DF4F3297962A2A /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_glutfont_definitions_x11.c */,
+				7DE9FD3CA67048B78C66ACDD /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_init_x11.c */,
+				C875DD2C36D645ECBC93747A /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_input_devices_x11.c */,
+				D81EDAD5560C4EF1B14278B7 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_joystick_x11.c */,
+				8B87FE487E6348BDADC55132 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_main_x11.c */,
+				F13332EB056E4E56B793BE95 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_menu_x11.c */,
+				8C190B480F8A48479621A566 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_spaceball_x11.c */,
+				3A63B0DE47304C8B92B293F4 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_state_x11.c */,
+				94B541B4A3C344F4A4F778D6 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_state_x11_glx.c */,
+				ACD59C3245DE44C7B652571D /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_structure_x11.c */,
+				01E85D49EA3F4F2786827D93 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_window_x11.c */,
+				D2CFD57942BA404195C9BBBC /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_window_x11_glx.c */,
+				FA711BA577D843B49A7D2726 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_xinput_x11.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		82ABCEE4A6F84A01BBDED7A2 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				F53249C5BBBE4B9F9C0A8DFB /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/include/GL/freeglut.h */,
+				8F032E0CC8E44A6AB8406AD1 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/include/GL/freeglut_ext.h */,
+				476EDE5B87964164933EB808 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/include/GL/freeglut_std.h */,
+				ECE7CF455BCA44E2AECEEF5B /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/include/GL/glut.h */,
+				4F35EA578A3B41A0A156AF58 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_gl2.h */,
+				55955863E4184FE18CC2A115 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_init.h */,
+				C3B5EAFEB7844419A870EA17 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_internal.h */,
+				424FC59F3B254D3DAA45E15C /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_teapot_data.h */,
+				EC647592FA7446D4BA87A46A /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/util/xparsegeometry_repl.h */,
+				35BA9C3EA8EF4D5F8A973A2D /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_internal_x11.h */,
+				FF08CD2423D945A7BB3AE36C /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_internal_x11_glx.h */,
+				ACA7A01690E9405EABA25033 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_state_x11_glx.h */,
+				2B078CCDF00F43408D5432DB /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_window_x11_glx.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		AF2AC5E8225342F795F4F670 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				C71833BCF243404D891FB1EF /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_callbacks.c */,
+				966502AE724D4B83818D1EC3 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_cursor.c */,
+				601595227ADD4191AF55D7E1 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_display.c */,
+				53B19DC540D647A59CA773B4 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_ext.c */,
+				4D5052507D14487AA457E1CD /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_font.c */,
+				D450F83418CD4FB0A8E3C37D /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_font_data.c */,
+				E7E607E7ABDA42A588A5332E /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_gamemode.c */,
+				8A96103F6B874D858E43DD96 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_geometry.c */,
+				37B01C8B8C8142A68E8EDC43 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_gl2.c */,
+				5883A593153A491380A6EAA4 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_init.c */,
+				34BA914F48AA408C9EE2C76B /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_input_devices.c */,
+				FB153B2B1AD9463E81913D60 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_joystick.c */,
+				888F861363DE4378A240CF0E /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_main.c */,
+				FD672C3397D24601B29EB83B /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_menu.c */,
+				7D695FC8F6EB4DD183E64B84 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_misc.c */,
+				7319DF4EEC6142CE8A362768 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_overlay.c */,
+				9763D393C24A4C709691063F /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_spaceball.c */,
+				640A91ECBC664E568A4B7A64 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_state.c */,
+				525BFB41C79740878CBC1048 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_stroke_mono_roman.c */,
+				9CAA1E1139974215B8628F91 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_stroke_roman.c */,
+				931002AAC4D0460EAC1C69C0 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_structure.c */,
+				C01D88E2AA8946AAAD0A769A /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_teapot.c */,
+				F69D273965324153AD41D10F /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_videoresize.c */,
+				C14639BF9B6D44C9901D914E /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_window.c */,
+				BDA8B4B2BC384BAD9D840D9C /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/util/xparsegeometry_repl.c */,
+				D1753A7C3648497182D0BFB2 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_cursor_x11.c */,
+				CF693ABC5C7D4108BD6BCD20 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_display_x11_glx.c */,
+				4BC66C729F9442528C8E0679 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_ext_x11.c */,
+				AA27C2B03FCE433BAB3FBCAA /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_gamemode_x11.c */,
+				80BDE8D31A494D959A15D0FB /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_glutfont_definitions_x11.c */,
+				743107D7DED94B18B6ED7528 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_init_x11.c */,
+				4F605E5F3B5B4A67B9651558 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_input_devices_x11.c */,
+				A4331D68F5BF4FF78F8F7E62 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_joystick_x11.c */,
+				AD71125A77004672BC38B0AC /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_main_x11.c */,
+				29C23A7A032D4E5FBE7B45B4 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_menu_x11.c */,
+				7C9AC5D73119422D96098343 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_spaceball_x11.c */,
+				995938356D7B44A5A6652914 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_state_x11.c */,
+				7086C471761B42E7A7B19DC8 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_state_x11_glx.c */,
+				3227A079C2994221AF6C81AB /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_structure_x11.c */,
+				023BA73230B243568CB7F319 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_window_x11.c */,
+				9D7FF03AFCED4CF5A93BE393 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_window_x11_glx.c */,
+				81AB50B50116440EAF476515 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_xinput_x11.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		AF68A40E046C47538416F4F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C39C3DBE1CA54A979530B2CE = {
+			isa = PBXGroup;
+			children = (
+				E869B204FC744EEBB502FB60 /* freeglut */,
+				3689ADB33F4844AAA29F33FE /* freeglut_static */,
+				F4A4D310F51D44F0A802C429 /* ALL_BUILD */,
+				28FB5BBA41B74320A13EECB0 /* Products */,
+				AF68A40E046C47538416F4F1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E0216581A7C8488491DADB91 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				84B29659073841FAB05E8A06 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/include/GL/freeglut.h */,
+				E38CB0F435D645A283FC41EF /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/include/GL/freeglut_ext.h */,
+				8D8E0537FF03424A9C9B19B3 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/include/GL/freeglut_std.h */,
+				195DF243F3B84571BADB0201 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/include/GL/glut.h */,
+				43002746B7C84C97858DCFD5 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_gl2.h */,
+				34188EC36909408D96541401 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_init.h */,
+				AAF148F9D53B469699FCF5B1 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_internal.h */,
+				88651E1068CB47C88899B377 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_teapot_data.h */,
+				329566EF97C84BC7980F364D /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/util/xparsegeometry_repl.h */,
+				76636D65A7E440E9874BF79B /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_internal_x11.h */,
+				2901EF6D6A664955B39073F5 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_internal_x11_glx.h */,
+				FD5469D2DFCF4D2DB3E46F1C /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_state_x11_glx.h */,
+				BC0FB19EBF214F08BC0385CE /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_window_x11_glx.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		E869B204FC744EEBB502FB60 /* freeglut */ = {
+			isa = PBXGroup;
+			children = (
+				E0216581A7C8488491DADB91 /* Header Files */,
+				AF2AC5E8225342F795F4F670 /* Source Files */,
+				BDEE1FC8A11A44089EF4E139 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/CMakeLists.txt */,
+			);
+			name = freeglut;
+			sourceTree = "<group>";
+		};
+		F4A4D310F51D44F0A802C429 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				068FF8D56FDA4E64938AEC5B /* CMake Rules */,
+				49433ABFB86E4E269C679FE8 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E12F9D27CBD049CDB227E580 /* freeglut_static */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48AB6456F10D40D2A8A25FDF /* Build configuration list for PBXNativeTarget "freeglut_static" */;
+			buildPhases = (
+				D086EE5BC5904DFAA300C9A6 /* Sources */,
+				0CF537D86316479FB67D8CA6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B4498D613F343AAA5E91CA1 /* PBXTargetDependency */,
+			);
+			name = freeglut_static;
+			productName = freeglut_static;
+			productReference = E8874AB1957F4549ABE667D0 /* freeglut_static */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EB8D528591974AF187252FBC /* freeglut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6EBB031B6724E2088731A1B /* Build configuration list for PBXNativeTarget "freeglut" */;
+			buildPhases = (
+				7EA9AE5098FB4941BB3B93E3 /* Sources */,
+				568E0B2124F34AB48476A542 /* Frameworks */,
+				95C065E2BBFACE851D975D37 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A05AF05FD6C482092F4669E /* PBXTargetDependency */,
+			);
+			name = freeglut;
+			productName = freeglut;
+			productReference = 6DC08FE32778444E93FB8A55 /* freeglut */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0C1D691E0154A86A975B0F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = F1D77CA135AF4816B4A8A5E5 /* Build configuration list for PBXProject "freeglut" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				809E77B854BB496F9C9A1FE9 /* Debug */,
+				F69A8B4A1CCD4B7DA7FFF579 /* Release */,
+				6DA0D9191F7748A28E0018DB /* MinSizeRel */,
+				930F27F948064243A637D40A /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = C39C3DBE1CA54A979530B2CE;
+			projectDirPath = "/Users/admin/Downloads/liquidfun-1.1.0/freeglut";
+			projectRoot = "";
+			targets = (
+				934C032C3EE245F3881E9841 /* ALL_BUILD */,
+				4E6B31F9B3F7491A91995566 /* ZERO_CHECK */,
+				EB8D528591974AF187252FBC /* freeglut */,
+				E12F9D27CBD049CDB227E580 /* freeglut_static */,
+				A102B4AE418F4883AFA69BED /* install */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2722E90A6D49AB7D2C17CF0C /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut
+  make -f /Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut
+  make -f /Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut
+  make -f /Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut
+  make -f /Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		647201FDA45DE4F8F2441088 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		87AF4882E018677E2624B544 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut
+  /usr/local/Cellar/cmake/3.23.1/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut
+  /usr/local/Cellar/cmake/3.23.1/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut
+  /usr/local/Cellar/cmake/3.23.1/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut
+  /usr/local/Cellar/cmake/3.23.1/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		95C065E2BBFACE851D975D37 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut
+  /usr/local/Cellar/cmake/3.23.1/bin/cmake -E cmake_symlink_library /Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut/Debug/libglut.3.9.0.dylib /Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut/Debug/libglut.3.dylib /Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut/Debug/libglut.dylib
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut
+  /usr/local/Cellar/cmake/3.23.1/bin/cmake -E cmake_symlink_library /Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut/Release/libglut.3.9.0.dylib /Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut/Release/libglut.3.dylib /Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut/Release/libglut.dylib
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut
+  /usr/local/Cellar/cmake/3.23.1/bin/cmake -E cmake_symlink_library /Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut/MinSizeRel/libglut.3.9.0.dylib /Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut/MinSizeRel/libglut.3.dylib /Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut/MinSizeRel/libglut.dylib
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut
+  /usr/local/Cellar/cmake/3.23.1/bin/cmake -E cmake_symlink_library /Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut/RelWithDebInfo/libglut.3.9.0.dylib /Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut/RelWithDebInfo/libglut.3.dylib /Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut/RelWithDebInfo/libglut.dylib
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7EA9AE5098FB4941BB3B93E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E4E900D74D8484DBBDEF839 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_callbacks.c */,
+				143CB9B973FD49649F051811 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_cursor.c */,
+				A0BB9E23F85F446B973566C1 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_display.c */,
+				FCE9E536E520495AB6444959 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_ext.c */,
+				A6D03D0CEF9D4711807E4B79 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_font.c */,
+				9619D4510D844FFBBE098443 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_font_data.c */,
+				588619A4E3024BB597E294EF /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_gamemode.c */,
+				770964938D404EA9B6231846 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_geometry.c */,
+				191C117447E94443A8578377 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_gl2.c */,
+				18FBF1543C18464FAA8564D4 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_init.c */,
+				84054F518E154D5B87BA1A88 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_input_devices.c */,
+				548BE38E13564091A0806C8C /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_joystick.c */,
+				9F4BA04382B14A5F982C1374 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_main.c */,
+				B4DF1C72447546348A02047C /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_menu.c */,
+				270146632191495DB48BC347 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_misc.c */,
+				B16E0FF1534342DCAF2281D1 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_overlay.c */,
+				614A7CB2F66B4E3083C57C88 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_spaceball.c */,
+				5228E2ECCA3746D4A30BE467 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_state.c */,
+				209FA1E4C16646A3B1AAE0A1 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_stroke_mono_roman.c */,
+				3AE2806CC9EC4F219C548346 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_stroke_roman.c */,
+				686AFEC929DD4AC2A5CC30D8 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_structure.c */,
+				DABB96C0395F440AB9001D45 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_teapot.c */,
+				0B9DB829021B4F728BB67D75 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_videoresize.c */,
+				974C8E4B03304D9FB58F381B /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_window.c */,
+				DB07D1773C97459290057547 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/util/xparsegeometry_repl.c */,
+				9CDDE4AB1925489CB7F28488 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_cursor_x11.c */,
+				4B5D539C2DE94F968CDF0DC1 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_display_x11_glx.c */,
+				30A777B8912E40B8BD9AF5B5 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_ext_x11.c */,
+				1BE944B5C7E041D4B0945366 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_gamemode_x11.c */,
+				56BD83692C01436E998BAC66 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_glutfont_definitions_x11.c */,
+				6EA271FD729C451EB87C3E09 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_init_x11.c */,
+				BED15F48C9A342A984D6CA97 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_input_devices_x11.c */,
+				2E4D0D6171D84AEEAB2D1872 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_joystick_x11.c */,
+				A487658817F94FACB356C500 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_main_x11.c */,
+				3AA84D73AF3641F8ABBA9712 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_menu_x11.c */,
+				D474D8383DCE4A2DB1A4299C /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_spaceball_x11.c */,
+				B704BB6E80F7468D8D070BA3 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_state_x11.c */,
+				CFE40FC78FDC45BCB825C6AD /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_state_x11_glx.c */,
+				76BE98DDFDEF4FC58C295134 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_structure_x11.c */,
+				8EF96D03666949BF8F0BE560 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_window_x11.c */,
+				320A8D75400142598E9E4B85 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_window_x11_glx.c */,
+				DB73227EB96D4FF7B8E24C40 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_xinput_x11.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D086EE5BC5904DFAA300C9A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4906D9D6C3314C37964E773A /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_callbacks.c */,
+				564B0151BEF84F9188122C34 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_cursor.c */,
+				3EF94DEA6BD64BE29F48B047 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_display.c */,
+				35D79B6D66124824A595936F /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_ext.c */,
+				C5EAA74F5F884BF888D8E7BE /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_font.c */,
+				6DAD870BDCF943EB8FFDEB8F /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_font_data.c */,
+				F9BD9A41F93843B5B6FCDC85 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_gamemode.c */,
+				0FF42A4693FF453B809031E9 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_geometry.c */,
+				8B94F09ED69945659436A79C /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_gl2.c */,
+				23C3A388C368411382826A97 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_init.c */,
+				A8E143CC1FB441BDA583ED03 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_input_devices.c */,
+				A579CF31350945579A277098 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_joystick.c */,
+				2034B4018A7D423EB869E852 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_main.c */,
+				A299FBB92EF442AAB9BDE8B1 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_menu.c */,
+				AA4119E5C5B64B06BE8D3B69 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_misc.c */,
+				64E770AAEE3F4591B417EC19 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_overlay.c */,
+				DAB522C68779463BA0B8E377 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_spaceball.c */,
+				6688793F4DD84150A63172CA /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_state.c */,
+				4F951A1A917743EA866A1B3F /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_stroke_mono_roman.c */,
+				424C8EB45049482D92182B54 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_stroke_roman.c */,
+				67A6C9DD5EB3483C8343325A /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_structure.c */,
+				17D573FD0EAF4E8EAF9F493A /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_teapot.c */,
+				F628C8A587504359A2E45623 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_videoresize.c */,
+				96A75825B7CC4FBB8932BF60 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/fg_window.c */,
+				88601488D84E4CCCA1F74C26 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/util/xparsegeometry_repl.c */,
+				5B526176B5DC41D5830AA353 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_cursor_x11.c */,
+				AE11CD03334847C4B07555E9 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_display_x11_glx.c */,
+				FB166B407F044ED582D51949 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_ext_x11.c */,
+				AD1CD44B61B54FCAADBE54A3 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_gamemode_x11.c */,
+				53C63CCF4B51457EB218CB52 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_glutfont_definitions_x11.c */,
+				DF5CC3460D0848B4AB88C207 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_init_x11.c */,
+				7CF68143F6A14222AED5F26F /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_input_devices_x11.c */,
+				A92E5649B33F4D92910CF835 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_joystick_x11.c */,
+				CEDFF3ECF9C34F46BDB83F33 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_main_x11.c */,
+				9418118F14194D65B85A1E65 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_menu_x11.c */,
+				D0B0E4E7F9FE4228A2D5D1D3 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_spaceball_x11.c */,
+				6D2D71E87146451FB9D24DCC /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_state_x11.c */,
+				A61948F70A5C4D3BA09A2AEC /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_state_x11_glx.c */,
+				1CA2AB503A4A4490AFC89157 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_structure_x11.c */,
+				E4F85F415A4044FBA6A60AE9 /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_window_x11.c */,
+				1D17A6A166ED4CC99D96314E /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_window_x11_glx.c */,
+				33F9D72A1CB441CCA3D5465B /* /Users/admin/Downloads/liquidfun-1.1.0/freeglut/src/x11/fg_xinput_x11.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A05AF05FD6C482092F4669E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E6B31F9B3F7491A91995566 /* ZERO_CHECK */;
+			targetProxy = BAC67FA1C3784758AC003D1F /* PBXContainerItemProxy */;
+		};
+		1B4498D613F343AAA5E91CA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E6B31F9B3F7491A91995566 /* ZERO_CHECK */;
+			targetProxy = 9F4D666FA72541DE8D0FFDAB /* PBXContainerItemProxy */;
+		};
+		2CB6AE70412B495EA55DE702 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 934C032C3EE245F3881E9841 /* ALL_BUILD */;
+			targetProxy = 2E84FE4D56084AC0A2DD0A0A /* PBXContainerItemProxy */;
+		};
+		8856615CB1704F5D9B1CE911 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E12F9D27CBD049CDB227E580 /* freeglut_static */;
+			targetProxy = FE28CF7A0E8946B6B99FCD40 /* PBXContainerItemProxy */;
+		};
+		D681F0D2615240528402C674 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E6B31F9B3F7491A91995566 /* ZERO_CHECK */;
+			targetProxy = 5858C8DD884E412480D6FB89 /* PBXContainerItemProxy */;
+		};
+		E7F968437D2B4B319C58C675 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB8D528591974AF187252FBC /* freeglut */;
+			targetProxy = EF76C78D051A450E9B7B878E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0547D8F9A4524C08ABC1ADAD /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		0A5630E1CD7243D385B660DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk;
+				SYMROOT = "/Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut/build";
+			};
+			name = Release;
+		};
+		0AE42FEBFB9846959A386C9D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'LIQUIDFUN_EXTERNAL_LANGUAGE_API=1'",HAVE_CONFIG_H,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D","/Users/admin/Downloads/liquidfun-1.1.0/freeglut/include","/Users/admin/Downloads/liquidfun-1.1.0/freeglut/src",/usr/pkg/xorg/include,/usr/X11R6/include,/usr/X11R7/include,/usr/include/X11,/usr/openwin/include,/usr/openwin/share/include,/opt/graphics/OpenGL/include,/opt/X11/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = (" -DDEBUG=0 ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glut;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		113A116E1E9246B8BC13A59D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk;
+				SYMROOT = "/Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut/build";
+			};
+			name = MinSizeRel;
+		};
+		184355F23A9847AC89A845FA /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		19987F03DCD945D9A1FF34C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		1CF09FD5B3C24E288C19376C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk;
+				SYMROOT = "/Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut/build";
+			};
+			name = Debug;
+		};
+		29B1ABB1D3AB4B8C86AC7F2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 3.0.0;
+				DYLIB_CURRENT_VERSION = 3.9.0;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",freeglut_EXPORTS,"'LIQUIDFUN_EXTERNAL_LANGUAGE_API=1'",HAVE_CONFIG_H,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D","/Users/admin/Downloads/liquidfun-1.1.0/freeglut/include","/Users/admin/Downloads/liquidfun-1.1.0/freeglut/src",/usr/pkg/xorg/include,/usr/X11R6/include,/usr/X11R7/include,/usr/include/X11,/usr/openwin/include,/usr/openwin/share/include,/opt/graphics/OpenGL/include,/opt/X11/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (/usr/X11/lib,"$(inherited)");
+				LIBRARY_SEARCH_PATHS = ("/usr/X11/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",/usr/X11/lib,"$(inherited)");
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CFLAGS = (" -DDEBUG=1 ","$(inherited)");
+				OTHER_LDFLAGS = (" -dynamiclib -Wl,-headerpad_max_install_names -install_name /Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut/Debug/libglut.3.dylib","-framework OpenGL","-lm",/usr/local/lib/libX11.dylib,/usr/local/lib/libXext.dylib,"-lGL","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glut.3.9.0;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		300BF7DA8F2E449A9BF59929 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 3.0.0;
+				DYLIB_CURRENT_VERSION = 3.9.0;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",freeglut_EXPORTS,"'LIQUIDFUN_EXTERNAL_LANGUAGE_API=1'",HAVE_CONFIG_H,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D","/Users/admin/Downloads/liquidfun-1.1.0/freeglut/include","/Users/admin/Downloads/liquidfun-1.1.0/freeglut/src",/usr/pkg/xorg/include,/usr/X11R6/include,/usr/X11R7/include,/usr/include/X11,/usr/openwin/include,/usr/openwin/share/include,/opt/graphics/OpenGL/include,/opt/X11/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (/usr/X11/lib,"$(inherited)");
+				LIBRARY_SEARCH_PATHS = ("/usr/X11/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",/usr/X11/lib,"$(inherited)");
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CFLAGS = (" -DDEBUG=0 ","$(inherited)");
+				OTHER_LDFLAGS = (" -dynamiclib -Wl,-headerpad_max_install_names -install_name /Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut/RelWithDebInfo/libglut.3.dylib","-framework OpenGL","-lm",/usr/local/lib/libX11.dylib,/usr/local/lib/libXext.dylib,"-lGL","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glut.3.9.0;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		3BCC5D2A836140989EED8D85 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		401EC2CB1E94404AA071891E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		404A261D39344AB281076321 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk;
+				SYMROOT = "/Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut/build";
+			};
+			name = RelWithDebInfo;
+		};
+		435485453591409EA5824FD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		548452E1FA1143348AB9AB7C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'LIQUIDFUN_EXTERNAL_LANGUAGE_API=1'",HAVE_CONFIG_H,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D","/Users/admin/Downloads/liquidfun-1.1.0/freeglut/include","/Users/admin/Downloads/liquidfun-1.1.0/freeglut/src",/usr/pkg/xorg/include,/usr/X11R6/include,/usr/X11R7/include,/usr/include/X11,/usr/openwin/include,/usr/openwin/share/include,/opt/graphics/OpenGL/include,/opt/X11/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = (" -DDEBUG=0 ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glut;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		6443CB853AE04625A0D2B311 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 3.0.0;
+				DYLIB_CURRENT_VERSION = 3.9.0;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",freeglut_EXPORTS,"'LIQUIDFUN_EXTERNAL_LANGUAGE_API=1'",HAVE_CONFIG_H,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D","/Users/admin/Downloads/liquidfun-1.1.0/freeglut/include","/Users/admin/Downloads/liquidfun-1.1.0/freeglut/src",/usr/pkg/xorg/include,/usr/X11R6/include,/usr/X11R7/include,/usr/include/X11,/usr/openwin/include,/usr/openwin/share/include,/opt/graphics/OpenGL/include,/opt/X11/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (/usr/X11/lib,"$(inherited)");
+				LIBRARY_SEARCH_PATHS = ("/usr/X11/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",/usr/X11/lib,"$(inherited)");
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CFLAGS = (" -DDEBUG=0 ","$(inherited)");
+				OTHER_LDFLAGS = (" -dynamiclib -Wl,-headerpad_max_install_names -install_name /Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut/MinSizeRel/libglut.3.dylib","-framework OpenGL","-lm",/usr/local/lib/libX11.dylib,/usr/local/lib/libXext.dylib,"-lGL","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glut.3.9.0;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		679AE9A02D0E4E52BE0ED0DB /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		742135BBD674477FA5EBE80A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		804711C2EE1F4EF1B5B38B1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'LIQUIDFUN_EXTERNAL_LANGUAGE_API=1'",HAVE_CONFIG_H,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D","/Users/admin/Downloads/liquidfun-1.1.0/freeglut/include","/Users/admin/Downloads/liquidfun-1.1.0/freeglut/src",/usr/pkg/xorg/include,/usr/X11R6/include,/usr/X11R7/include,/usr/include/X11,/usr/openwin/include,/usr/openwin/share/include,/opt/graphics/OpenGL/include,/opt/X11/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = (" -DDEBUG=0 ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glut;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		951CBAE138B7414AB7CE927E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		979CCE7F3B544EAE890E9EDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		BC0CF3765900475B869C17AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		CD02AD89663C4034994614EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'LIQUIDFUN_EXTERNAL_LANGUAGE_API=1'",HAVE_CONFIG_H,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D","/Users/admin/Downloads/liquidfun-1.1.0/freeglut/include","/Users/admin/Downloads/liquidfun-1.1.0/freeglut/src",/usr/pkg/xorg/include,/usr/X11R6/include,/usr/X11R7/include,/usr/include/X11,/usr/openwin/include,/usr/openwin/share/include,/opt/graphics/OpenGL/include,/opt/X11/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = (" -DDEBUG=1 ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glut;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		E966F873B19B46B2883E0281 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		F3A47F5FB1E246F488D95EB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 3.0.0;
+				DYLIB_CURRENT_VERSION = 3.9.0;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",freeglut_EXPORTS,"'LIQUIDFUN_EXTERNAL_LANGUAGE_API=1'",HAVE_CONFIG_H,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D","/Users/admin/Downloads/liquidfun-1.1.0/freeglut/include","/Users/admin/Downloads/liquidfun-1.1.0/freeglut/src",/usr/pkg/xorg/include,/usr/X11R6/include,/usr/X11R7/include,/usr/include/X11,/usr/openwin/include,/usr/openwin/share/include,/opt/graphics/OpenGL/include,/opt/X11/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (/usr/X11/lib,"$(inherited)");
+				LIBRARY_SEARCH_PATHS = ("/usr/X11/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",/usr/X11/lib,"$(inherited)");
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CFLAGS = (" -DDEBUG=0 ","$(inherited)");
+				OTHER_LDFLAGS = (" -dynamiclib -Wl,-headerpad_max_install_names -install_name /Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut/Release/libglut.3.dylib","-framework OpenGL","-lm",/usr/local/lib/libX11.dylib,/usr/local/lib/libXext.dylib,"-lGL","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glut.3.9.0;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F2A7ED2609745B893B1BED9 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				401EC2CB1E94404AA071891E /* Debug */,
+				435485453591409EA5824FD5 /* Release */,
+				E966F873B19B46B2883E0281 /* MinSizeRel */,
+				951CBAE138B7414AB7CE927E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		48AB6456F10D40D2A8A25FDF /* Build configuration list for PBXNativeTarget "freeglut_static" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD02AD89663C4034994614EC /* Debug */,
+				804711C2EE1F4EF1B5B38B1A /* Release */,
+				548452E1FA1143348AB9AB7C /* MinSizeRel */,
+				0AE42FEBFB9846959A386C9D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5886D5948E7A445991352689 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				979CCE7F3B544EAE890E9EDB /* Debug */,
+				742135BBD674477FA5EBE80A /* Release */,
+				0547D8F9A4524C08ABC1ADAD /* MinSizeRel */,
+				184355F23A9847AC89A845FA /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		97CB1A3D105B4D7BAFD3C923 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC0CF3765900475B869C17AA /* Debug */,
+				19987F03DCD945D9A1FF34C3 /* Release */,
+				679AE9A02D0E4E52BE0ED0DB /* MinSizeRel */,
+				3BCC5D2A836140989EED8D85 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E6EBB031B6724E2088731A1B /* Build configuration list for PBXNativeTarget "freeglut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29B1ABB1D3AB4B8C86AC7F2E /* Debug */,
+				F3A47F5FB1E246F488D95EB9 /* Release */,
+				6443CB853AE04625A0D2B311 /* MinSizeRel */,
+				300BF7DA8F2E449A9BF59929 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F1D77CA135AF4816B4A8A5E5 /* Build configuration list for PBXProject "freeglut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CF09FD5B3C24E288C19376C /* Debug */,
+				0A5630E1CD7243D385B660DF /* Release */,
+				113A116E1E9246B8BC13A59D /* MinSizeRel */,
+				404A261D39344AB281076321 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0C1D691E0154A86A975B0F2 /* Project object */;
+}

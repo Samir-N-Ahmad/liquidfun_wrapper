@@ -1,0 +1,19 @@
+#!/bin/sh
+set -e
+if test "$CONFIGURATION" = "Debug"; then :
+  cd /Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D
+  /usr/local/Cellar/cmake/3.23.1/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test "$CONFIGURATION" = "Release"; then :
+  cd /Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D
+  /usr/local/Cellar/cmake/3.23.1/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test "$CONFIGURATION" = "MinSizeRel"; then :
+  cd /Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D
+  /usr/local/Cellar/cmake/3.23.1/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test "$CONFIGURATION" = "RelWithDebInfo"; then :
+  cd /Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D
+  /usr/local/Cellar/cmake/3.23.1/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+

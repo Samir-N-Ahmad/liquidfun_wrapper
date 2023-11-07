@@ -1,0 +1,19 @@
+#!/bin/sh
+set -e
+if test "$CONFIGURATION" = "Debug"; then :
+  cd /Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut
+  /usr/local/Cellar/cmake/3.23.1/bin/cmake -E cmake_symlink_library /Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut/Debug/libglut.3.9.0.dylib /Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut/Debug/libglut.3.dylib /Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut/Debug/libglut.dylib
+fi
+if test "$CONFIGURATION" = "Release"; then :
+  cd /Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut
+  /usr/local/Cellar/cmake/3.23.1/bin/cmake -E cmake_symlink_library /Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut/Release/libglut.3.9.0.dylib /Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut/Release/libglut.3.dylib /Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut/Release/libglut.dylib
+fi
+if test "$CONFIGURATION" = "MinSizeRel"; then :
+  cd /Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut
+  /usr/local/Cellar/cmake/3.23.1/bin/cmake -E cmake_symlink_library /Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut/MinSizeRel/libglut.3.9.0.dylib /Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut/MinSizeRel/libglut.3.dylib /Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut/MinSizeRel/libglut.dylib
+fi
+if test "$CONFIGURATION" = "RelWithDebInfo"; then :
+  cd /Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut
+  /usr/local/Cellar/cmake/3.23.1/bin/cmake -E cmake_symlink_library /Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut/RelWithDebInfo/libglut.3.9.0.dylib /Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut/RelWithDebInfo/libglut.3.dylib /Users/admin/Downloads/liquidfun-1.1.0/liquidfun/Box2D/freeglut/RelWithDebInfo/libglut.dylib
+fi
+
