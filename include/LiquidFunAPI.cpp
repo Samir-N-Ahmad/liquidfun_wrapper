@@ -1,10 +1,11 @@
 #include "LiquidFunAPI.h"
 #include <Box2D/Box2D.h>
 #include <iostream>
+#include <vector>
 
 extern "C" {
   void LiquidEngine_Initialize(LiquidFunEngine* engine){
-         engine->initalize();
+//         engine->initalize();
   }
   void LiquidEngine_Draw(LiquidFunEngine* engine){
     engine->draw();
@@ -16,4 +17,8 @@ extern "C" {
   int32_t Health_Check(){
     return 11;
   }
+
+std::vector<std::vector<float>> Render(LiquidFunEngine* engine){
+    return engine->render();
+}
 }

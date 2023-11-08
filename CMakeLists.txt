@@ -5,6 +5,8 @@ set(LIB_NAME FLiquidFun)
 set(LIB_VERSION 0)
 set(LIB_SO_VERSION 1)
 
+# set c++ 11 as default
+set (CMAKE_CXX_STANDARD 14)
 project(${LIB_NAME})
 
 # another library for testing
@@ -23,7 +25,12 @@ set_target_properties(${LIB_NAME} PROPERTIES SOVERSION ${LIB_SO_VERSION})
 # add_library(EXT_LIQUID_FUN SHARED IMPORTED)
 add_library(LiquidFunEngine STATIC 
 ${CMAKE_SOURCE_DIR}/src/engine/LiquidFunEngine.cpp
-${CMAKE_SOURCE_DIR}/src/engine/LiquidFunEngine.h)
+${CMAKE_SOURCE_DIR}/src/engine/LiquidFunEngine.h
+${CMAKE_SOURCE_DIR}/src/engine/widgets/BaseWidget.h
+${CMAKE_SOURCE_DIR}/src/engine/widgets/BaseWidget.cpp
+${CMAKE_SOURCE_DIR}/src/engine/widgets/CircleWidget.h
+${CMAKE_SOURCE_DIR}/src/engine/widgets/CircleWidget.cpp)
+
 
 include_directories(${LIB_NAME} PUBLIC  ${CMAKE_SOURCE_DIR}/external/liquidfun)
 target_link_libraries(${LIB_NAME}  PUBLIC ${CMAKE_CURRENT_LIST_DIR}/external/liquidfun/Box2D/Debug/libliquidfun.a)
