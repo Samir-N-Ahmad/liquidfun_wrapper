@@ -106,6 +106,7 @@ Box2D/googletest/**
 **/CMakeCache.txt
 **/CMakeCache.txt_*
 **/Debug/**
+!**/Box2D/Debug/libliquidfun.a
 **/Release/**
 **/xcuserdata/**
 build.xml
