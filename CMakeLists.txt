@@ -29,7 +29,11 @@ ${CMAKE_SOURCE_DIR}/src/engine/LiquidFunEngine.h
 ${CMAKE_SOURCE_DIR}/src/engine/widgets/BaseWidget.h
 ${CMAKE_SOURCE_DIR}/src/engine/widgets/BaseWidget.cpp
 ${CMAKE_SOURCE_DIR}/src/engine/widgets/CircleWidget.h
-${CMAKE_SOURCE_DIR}/src/engine/widgets/CircleWidget.cpp)
+${CMAKE_SOURCE_DIR}/src/engine/widgets/CircleWidget.cpp
+# utils
+${CMAKE_SOURCE_DIR}/src/utils/Utils.h
+${CMAKE_SOURCE_DIR}/src/utils/Utils.cpp
+)
 
 
 
@@ -40,6 +44,7 @@ target_link_libraries(${LIB_NAME}  PUBLIC LiquidFunEngine)
 #include the libraries includedirectory
 target_include_directories(${LIB_NAME} PUBLIC ${CMAKE_SOURCE_DIR}/include)
 target_include_directories(${LIB_NAME} PUBLIC ${CMAKE_SOURCE_DIR}/src/engine)
+target_include_directories(${LIB_NAME} PUBLIC ${CMAKE_SOURCE_DIR}/src/utils)
 
 set_property(GLOBAL PROPERTY USE_FOLDERS ON)
 
