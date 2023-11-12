@@ -1,8 +1,9 @@
-#include "LiquidFunAPI.h"
 #include <Box2D/Box2D.h>
 #include <iostream>
 #include <vector>
 
+#include "LiquidFunAPI.h"
+#include "Utils.h"
 extern "C" {
   void LiquidEngine_Initialize(LiquidFunEngine* engine){
 //         engine->initalize();
@@ -18,7 +19,10 @@ extern "C" {
     return 11;
   }
 
-std::vector<std::vector<float>> Render(LiquidFunEngine* engine){
-    return engine->render();
+float** Render(LiquidFunEngine* engine){
+    std::vector<std::vector<float> >  vectors = engine->render();
+    float** postions = Utils::worldPostionsToDynamicArray(vectors);
+    
+    return postions;
 }
 }

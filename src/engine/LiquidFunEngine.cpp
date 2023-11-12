@@ -45,7 +45,7 @@ void LiquidFunEngine::addCircle(float radius, float xPosition, float yPosition) 
 void LiquidFunEngine::draw(){
 
     for (int i = 0; i < 100; ++i) {
-        m_world->Step(0.1, 0.2, 0.2);
+        m_world->Step(0.1, 2, 2);
       }
 
     
@@ -53,6 +53,7 @@ void LiquidFunEngine::draw(){
     
 std::vector<std::vector<float> > LiquidFunEngine::render(){
     if(!m_widgets.empty()) {
-        return {m_widgets.at(0)->getPosition()};
+        return {m_widgets[1]->getPosition()};
     }
+    return  {};
 }

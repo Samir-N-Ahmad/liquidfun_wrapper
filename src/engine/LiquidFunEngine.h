@@ -19,13 +19,13 @@ private:
     b2World* m_world;
     b2Vec2 m_worldGravity;
     
-    void initalize(b2Vec2 gravity);
     LiquidFunEngine();
     
     
 public:
     static LiquidFunEngine& instance();
     void dispose();
+    void initalize(b2Vec2 gravity);
     void draw();
     void addCircle(float radius, float xPosition, float yPosition);
     std::vector<std::vector<float> > render();
