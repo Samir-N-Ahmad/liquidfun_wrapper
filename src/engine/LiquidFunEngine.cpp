@@ -6,6 +6,7 @@
 //
 
 #include <iostream>
+#include <sstream>
 
 #include "LiquidFunEngine.h"
 
@@ -20,26 +21,28 @@ LiquidFunEngine::LiquidFunEngine() {
     m_world = nullptr;
 }
 
-LiquidFunEngine& LiquidFunEngine::instance(){
+LiquidFunEngine::~LiquidFunEngine() {
+}
+
+LiquidFunEngine* LiquidFunEngine::instance(){
     static LiquidFunEngine instance;
-    return instance;
+    return &instance;
 }
 
 void LiquidFunEngine::dispose() {
-    std::cout<< "desposing Liquid fun API";
+    LiquidFunEngine::~LiquidFunEngine();
+
 }
 
-
-void LiquidFunEngine::addCircle(float radius, float xPosition, float yPosition) {
-    
+void LiquidFunEngine::addCircle(float* radius, float* xPosition, float* yPosition) {
     b2BodyDef* bodyDef = new b2BodyDef();
     b2Body* body = m_world->CreateBody(bodyDef);
     body->SetType(b2BodyType::b2_dynamicBody);
-    body->SetTransform(b2Vec2(xPosition, yPosition), 1);
+    body->SetTransform(b2Vec2(*xPosition, *yPosition), 1);
     
     BaseWidget* circle  = new CircleWidget(1, body, "ad", bodyDef, 2);
     
-    m_widgets[1] = circle;
+    m_widgets.push_back(circle);
 }
 
 void LiquidFunEngine::draw(){
@@ -52,8 +55,41 @@ void LiquidFunEngine::draw(){
 }
     
 std::vector<std::vector<float> > LiquidFunEngine::render(){
+    std::vector<std::vector<float>> widgets= {};
     if(!m_widgets.empty()) {
-        return {m_widgets[1]->getPosition()};
+        for(BaseWidget* widget: m_widgets) {
+            widgets.push_back(widget->getPosition());
+            
+        }
+        
     }
-    return  {};
+    return  widgets;
+}
+
+char* LiquidFunEngine::toString(){
+    std::stringstream stringStream;
+    
+    stringStream  << "=================================================== " << std::endl;
+    stringStream  << "==============LiquidEngine instance================ " << std::endl;
+    stringStream  << "=================================================== " << std::endl;
+
+    stringStream  << "world : " << std::endl;
+    stringStream  << "  body count  : " << m_world->GetBodyCount() << std::endl;
+    stringStream  << "  gravity  : " << m_world->GetGravity().x << " " << m_world->GetGravity().y << std::endl;
+    stringStream << std::endl;
+    stringStream << std::endl;
+
+    
+    stringStream  << "-------------------------------," << std::endl;
+
+    
+    stringStream  << "widgets: " << std::endl;
+    
+    for(BaseWidget* widget: m_widgets){
+        stringStream << "   id: "  << std::endl;
+        stringStream << "   position   x : " << widget->getPosition()[0] << "    y :" << widget->getPosition()[1] << std::endl;
+        stringStream << "   --------------------------"<<std::endl;
+    }
+    m_log = stringStream.str();
+    return m_log.data();
 }
