@@ -5,8 +5,8 @@ set(LIB_NAME FLiquidFun)
 set(LIB_VERSION 0)
 set(LIB_SO_VERSION 1)
 
-# set c++ 11 as default
-set (CMAKE_CXX_STANDARD 14)
+# set c++ 17 as default
+set (CMAKE_CXX_STANDARD 17)
 project(${LIB_NAME})
 
 # another library for testing
