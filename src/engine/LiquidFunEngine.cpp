@@ -61,7 +61,6 @@ std::vector<std::vector<float> > LiquidFunEngine::render(){
             widgets.push_back(widget->getPosition());
             
         }
-        
     }
     return  widgets;
 }

@@ -21,6 +21,12 @@ extern "C" {
     engine->dispose();
   }
 
+  void LiquidEngine_Add_Circle(LiquidFunEngine* engine, float* x, float* y, float* r){
+        std::cout << "CPP === Destroying  " << engine << std::endl;
+
+    engine->addCircle(r,x,y);
+  }
+
   int32_t Health_Check(){
     return 11;
   }
