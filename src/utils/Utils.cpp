@@ -4,14 +4,15 @@
 
 
 float** Utils::worldPostionsToDynamicArray(std::vector<std::vector<float>>& list){
-    float** postions = new float*();
+    unsigned long arraySize = list.size();
+    float** postions = new float*[arraySize + 1]();
     
     int i = 0;
-    
+    // embed first element as the array's size
+    float floatedSize = float(arraySize);
+    postions[i++] = &floatedSize;
     for(std::vector<float>& postion : list) {
-        std::cout << "positon " << i <<  " "  << postion[i] << std::endl;
         postions[i++] =  Utils::toDynamicArray<float>(postion);
-
     }
 
     return postions;

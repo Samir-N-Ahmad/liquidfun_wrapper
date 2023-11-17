@@ -18,14 +18,15 @@ private:
     template<typename T> static T* toDynamicArray(std::vector<T>& list){
         //TODO
         // deal with the pointer
-        unsigned long listSize = sizeof(list);
+        unsigned long listSize = list.size();
         if(listSize == 0){
             return nullptr;
         }
         T* dynamicArray = new T();
         int iterator = 0;
+        // embed the array's size as the first element
+        dynamicArray[iterator++] = T(listSize);
         for(T& item : list){
-            std::cout <<"item : " << item << std::endl;
             dynamicArray[iterator++] = item;
         }
         return dynamicArray;
