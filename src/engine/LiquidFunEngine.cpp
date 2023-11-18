@@ -58,8 +58,7 @@ std::vector<std::vector<float> > LiquidFunEngine::render(){
     std::vector<std::vector<float>> widgets= {};
     if(!m_widgets.empty()) {
         for(BaseWidget* widget: m_widgets) {
-            widgets.push_back(widget->getPosition());
-            
+            widgets.push_back(widget->getTransformation());
         }
     }
     return  widgets;
