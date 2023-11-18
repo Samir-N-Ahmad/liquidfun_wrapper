@@ -6,6 +6,7 @@
 #include "Utils.h"
 extern "C" {
   LiquidFunEngine* LiquidEngine_Initialize(){
+        std::cout << "CPP === initalizing "  << std::endl;
         LiquidFunEngine* engine= LiquidFunEngine::instance();
         engine->initalize(b2Vec2(1,1));
         return engine;
@@ -22,7 +23,7 @@ extern "C" {
   }
 
   void LiquidEngine_Add_Circle(LiquidFunEngine* engine, float* x, float* y, float* r){
-        std::cout << "CPP === Destroying  " << engine << std::endl;
+        std::cout << "CPP === add Circle  " << engine << std::endl;
 
     engine->addCircle(r,x,y);
   }
