@@ -22,10 +22,10 @@ private:
         if(listSize == 0){
             return nullptr;
         }
-        T* dynamicArray = new T();
+        T* dynamicArray = new T[listSize + 1]();
         int iterator = 0;
         // embed the array's size as the first element
-        dynamicArray[iterator++] = T(listSize);
+        dynamicArray[iterator++] = (T)listSize;
         for(T& item : list){
             dynamicArray[iterator++] = item;
         }
