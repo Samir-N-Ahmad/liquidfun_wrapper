@@ -17,9 +17,11 @@ private:
     
 public:
     CircleWidget(const int& id, b2Body* body,const std::string& tag, b2BodyDef* bodyDefinition, const double& radius);
-    void rotate();
+    
+    void rotate() override;
+    
     float getRadius();
-    void translate();
+    void translate() override;
 };
 
 #endif

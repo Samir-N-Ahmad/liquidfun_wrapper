@@ -7,10 +7,10 @@ CircleWidget::CircleWidget(const int& id, b2Body* body,const std::string& tag, b
 }
 
 
-void CircleWidget::rotate(){
+void CircleWidget::rotate() {
     
 }
 
-void CircleWidget::translate(){
+void CircleWidget::translate() {
     
 }
